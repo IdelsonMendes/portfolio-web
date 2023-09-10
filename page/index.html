@@ -456,11 +456,11 @@
                 </div>
             </div>
             <div id="register-container">
-                <form action="">
+                <form action="mailto:mendes.workart@gmail.com" method="get" enctype="text/plain">
                     <div class="register-info">
                         <label for="register-input-email" id="register-label-email">Email</label>
                         <div class="email-info">
-                            <input type="email" id="register-input-email" placeholder="Digite seu email"
+                            <input type="email" name="email" id="register-input-email" placeholder="Digite o seu email"
                                 autocomplete="off">
                             <img src="../resourcers/email/email-disable.png" alt="ícone de email">
                         </div>
@@ -468,8 +468,8 @@
                     <div class="register-info">
                         <label for="register-input-subject" id="register-label-subject">Assunto</label>
                         <div class="subject-info">
-                            <input type="text" id="register-input-subject" placeholder="Digite o titulo do assunto"
-                                autocomplete="off">
+                            <input type="text" name="subject" id="register-input-subject"
+                                placeholder="Digite o titulo do seu assunto" autocomplete="off">
                             <img src="../resourcers/email/email-disable.png" alt="ícone de asssunto">
                         </div>
                     </div>
@@ -479,12 +479,12 @@
                             <img src="../resourcers/email/email-disable.png" alt="ícone de mensagem">
                         </div>
                         <div class="body-info">
-                            <textarea id="register-input-body" cols="30" rows="10"
+                            <textarea name="body" id="register-input-body" cols="30" rows="10"
                                 placeholder="Digite sobre o seu assunto"></textarea>
                         </div>
                     </div>
                     <div class="buttons">
-                        <button type=" submit" class="btn-login" onclick="sendMail()">Enviar</button>
+                        <button type=" submit" class="btn-login">Enviar</button>
                     </div>
                 </form>
             </div>
