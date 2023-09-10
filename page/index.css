@@ -1,0 +1,992 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: auto;
+    background: transparent;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+video {
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    height: auto;
+    object-fit: cover;
+    z-index: 0;
+    position: absolute;
+    filter: grayscale(1);
+    transition: filter 3s;
+
+}
+
+video:hover {
+    filter: grayscale(0);
+    transition: filter 3s;
+}
+
+.curriculo {
+    margin: auto;
+    width: 1440px;
+    height: 887px;
+    /*position: relative;*/
+    overflow: hidden;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curriculo * {
+    animation: enterTransition 1s ease;
+}
+
+.curriculo .curriculo-background {
+    min-width: 100vw;
+    min-height: 100vh;
+    filter: grayscale(1);
+    transition: filter 1s;
+}
+
+.curriculo .curriculo-background:hover {
+    filter: grayscale(0);
+    transition: filter 1s;
+}
+
+/*  ========== Nav ========== */
+
+.nav {
+    background: #1d1e20;
+    width: 62px;
+    height: 676px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: -6px 6px 18px #000;
+}
+
+.nav .nav-bar {
+    width: 62px;
+    height: 45px;
+    background: #1a6eba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .nav-bar .bar {
+    margin: auto;
+    width: 15px;
+    height: 15px;
+    overflow: visible;
+}
+
+.nav .icons {
+    margin: auto;
+    margin-top: 100px;
+    width: 62px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.nav .icons .user-icon,
+.nav .icons .tel-icon,
+.nav .icons .certification-icon,
+.nav .icons .skill-icon,
+.nav .icons .project-icon,
+.nav .icons .email-icon {
+    margin: 30px auto;
+    height: 20px;
+    cursor: pointer;
+
+}
+
+.nav .icons .user-icon .icon,
+.nav .icons .tel-icon .icon,
+.nav .icons .certification-icon .icon,
+.nav .icons .skill-icon .icon,
+.nav .icons .project-icon .icon,
+.nav .icons .email-icon .icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+.nav .icons .user-icon .icon:hover,
+.nav .icons .tel-icon .icon:hover,
+.nav .icons .certification-icon .icon.icon:hover,
+.nav .icons .skill-icon .icon.icon:hover,
+.nav .icons .project-icon .icon.icon:hover,
+.nav .icons .email-icon .icon.icon:hover {
+    scale: 1.5;
+}
+
+/*  ========== END Nav ========== */
+
+/* ========== Profile ========== */
+
+.profile {
+    background: #1c1c1c;
+    width: 440px;
+    height: 802px;
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: relative;
+}
+
+.profile .profile-image {
+    margin: auto;
+    background: linear-gradient(to left,
+            rgba(28, 28, 28, 0.5),
+            rgba(28, 28, 28, 0.5));
+    width: 100%;
+    height: 755px;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    transition: filter 1s;
+}
+
+.profile:hover .profile-image {
+    filter: grayscale(0);
+}
+
+.profile .profile-name {
+    margin: auto;
+    top: 690px;
+    width: 440px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+    color: #ffffff;
+    text-align: center;
+    font: 700 30px "Inter", sans-serif;
+}
+
+.profile .profile-function {
+    margin: 15px auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font: 700 20px "Inter", sans-serif;
+    text-align: center;
+    color: #1a6eba;
+}
+
+.profile .profile-icons {
+    margin: auto;
+    top: 750px;
+    width: 440px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.profile .media-icon {
+    margin: auto 20px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.profile .media-icon .icon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    cursor: pointer;
+}
+
+/* ========== END Profile ========== */
+
+/*  ========== About ========== */
+
+
+.curriculo-background {
+    background: transparent;
+    width: 1440px;
+    height: 887px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#about {
+    background: #1d1e20;
+    width: 718px;
+    height: 676px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    box-shadow: 12px 6px 18px #000;
+}
+
+#about .about-section {
+    width: 718px;
+    height: 160px;
+}
+
+#about .about-section .about-title {
+    margin: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font: 700 40px "Inter", sans-serif;
+    color: #ffffff;
+}
+
+#about .about-section .about-topics {
+    margin-left: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#about .about-section .about-topics .topic {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font: 600 20px "Inter", sans-serif;
+    color: #1a6eba;
+}
+
+.about-arrow {
+    margin: auto 5px;
+    width: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font: 600 20px "Inter", sans-serif;
+    color: #6b6b6b;
+}
+
+#about .about-section .about-description {
+    margin: 15px 30px;
+    width: 655px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font: 400 18px "Inter", sans-serif;
+    color: #6b6b6b;
+}
+
+#about .services-title {
+    margin: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font: 700 30px "Inter", sans-serif;
+    color: #ffffff;
+}
+
+.service-title {
+    margin: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font: 700 30px "Inter", sans-serif;
+    color: #ffffff;
+}
+
+#about .services-section {
+    width: 718px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#about .services-section .service-development {
+    margin: 15px 30px;
+    width: 211px;
+    height: auto;
+}
+
+#about .services-section .service-development .service-icon {
+    margin: 15px auto;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+#about .services-section .service-development .service-icon .icon {
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+#about .services-section .service-development .service-title {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    text-align: left;
+    font: 700 20px "Inter", sans-serif;
+    color: #ffffff;
+}
+
+#about .services-section .service-development .service-description {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    text-align: left;
+    font: 400 18px "Inter", sans-serif;
+    color: #6b6b6b;
+}
+
+/*  ========== END About ========== */
+
+/*  ========== Formation ========== */
+
+#formations {
+    background: #1d1e20;
+    width: 718px;
+    height: 676px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none;
+    position: relative;
+    box-shadow: 12px 6px 18px #000;
+}
+
+#formations .formation-section {
+    width: 718px;
+    height: auto;
+}
+
+.formation-section .formation-title {
+    margin: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    text-align: left;
+    font: 700 40px "Inter", sans-serif;
+    color: #ffffff;
+}
+
+.formation-section .formation-topics {
+    margin-left: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.formation-section .formation-topics .topic {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font: 600 20px "Inter", sans-serif;
+    color: #1a6eba;
+}
+
+#formations .institute-section {
+    margin: 30px;
+    width: auto;
+    height: auto;
+    /*
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    */
+}
+
+#formations .institute-section .institute-formation {
+    margin: 15px;
+    width: 342px;
+    height: 160px;
+}
+
+#formations .institute-section .institute-formation .institute {
+    width: 293px;
+    height: auto;
+}
+
+#formations .institute-section .institute-formation .institute .formation-icon,
+#formations .institute-section .institute-formation .institute .formation-info {
+    display: flex;
+    flex-direction: row;
+}
+
+#formations .institute-section .institute-formation .institute .formation-info div {
+    display: flex;
+    flex-direction: column;
+}
+
+#formations .institute-section .institute-formation .institute .formation-info div .title {
+    margin: 15px;
+    width: auto;
+    text-align: left;
+    font: 700 15px "Inter", sans-serif;
+    color: #6b6b6b;
+}
+
+#formations .institute-section .institute-formation .institute .formation-info div .description {
+    margin: 5px 15px;
+    width: 245px;
+    height: auto;
+    text-align: left;
+    font: 700 15px "Inter", sans-serif;
+    color: #ffffff;
+}
+
+#formations .institute-section .institute-formation .institute .formation-icon .icon {
+    width: 20px;
+    height: 20px;
+}
+
+#formations .institute-section .institute-formation .institute .formation-icon .year {
+    margin-left: 15px;
+    text-align: left;
+    font: 700 15px "Inter", sans-serif;
+    color: #ffffff;
+}
+
+
+#formations .institute-section .institute-formation .institute .formation-icon .year:nth-last-child(2) {
+    text-align: center;
+    font: 700 20px "Inter", sans-serif;
+    color: #6b6b6b;
+}
+
+
+.certification-title {
+    margin: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+    font: 700 30px "Inter", sans-serif;
+    color: #ffffff;
+}
+
+/* Progress Bar */
+
+.progress-bar {
+    width: 104px;
+    height: 22px;
+}
+
+.line-skill {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px 0 0 0;
+    width: 104px;
+    height: 0px;
+    position: absolute;
+    left: 40px;
+    top: 230px;
+    transform-origin: 0 0;
+    transform: rotate(90deg) scale(1, 1);
+}
+
+.point-skill {
+    width: 22px;
+    height: 22px;
+}
+
+.ellipse-1 {
+    background: #1d1e20;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 50px;
+    top: 270px;
+    transform-origin: 0 0;
+    transform: rotate(90deg) scale(1, 1);
+}
+
+.ellipse-2 {
+    background: #ffffff;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 45px;
+    top: 275px;
+    transform-origin: 0 0;
+    transform: rotate(90deg) scale(1, 1);
+}
+
+/*  ========== END Formation ========== */
+
+/*  ========== Skills ========== */
+
+#skills {
+    background: #1d1e20;
+    width: 718px;
+    height: 676px;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: none;
+    position: relative;
+    box-shadow: 12px 6px 18px #000;
+}
+
+.skills-section {
+    width: 718px;
+    height: auto;
+}
+
+.skills-title {
+    margin: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    text-align: left;
+    font: 700 40px "Inter", sans-serif;
+    color: #ffffff;
+}
+
+.skills-section .skills-topics {
+    margin-left: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills-topics .topic {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font: 600 20px "Inter", sans-serif;
+    color: #1a6eba;
+}
+
+.skills-developer {
+    margin: auto;
+    padding: 30px;
+    text-align: left;
+    font: 700 40px "Inter", sans-serif;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skills-developer .skill {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.skills-developer .icon {
+    width: 30px;
+    height: 30px;
+}
+
+.skills-developer .title {
+    margin-left: 10px;
+    width: 100px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.skills-developer svg {
+    margin: auto 25px;
+}
+
+/*  ========== END Skills ========== */
+
+/*  ========== Projects ========== */
+
+#projects {
+    background: #1d1e20;
+    width: 718px;
+    height: 676px;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: none;
+    position: relative;
+    box-shadow: 12px 6px 18px #000;
+}
+
+#projects .projects-section {
+    width: 718px;
+    height: auto;
+}
+
+#projects .projects-section .projects-title {
+    margin: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font: 700 40px "Inter", sans-serif;
+    color: #ffffff;
+}
+
+#projects .projects-section .projects-topics {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#projects .projects-section .projects-topics .topic {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font: 600 20px "Inter", sans-serif;
+    color: #1a6eba;
+}
+
+#projects .projects-developer {
+    width: 718px;
+    height: auto;
+}
+
+#projects .projects-developer .project {
+    margin: 30px;
+    width: 528px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+#projects .projects-developer .project a .image {
+    width: 162px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    transition: filter 1s;
+}
+
+#projects .projects-developer .project:hover a .image {
+    filter: grayscale(0);
+}
+
+#projects .projects-developer .project .project-info {
+    margin-left: 20px;
+    width: 342px;
+    height: 119px;
+
+}
+
+#projects .projects-developer .project .project-info .project-header {
+    display: flex;
+    width: 150px;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+#projects .projects-developer .project .project-info .project-header .icon {
+    width: 30px;
+    height: 30px;
+}
+
+#projects .projects-developer .project .project-info .project-header .title {
+    margin: auto;
+    margin-left: 10px;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#projects .projects-developer .project .project-info .description {
+    margin-top: 20px;
+    color: #6B6B6B;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*  ========== END Projects ========== */
+
+/*  ========== Email ========== */
+
+#email {
+    background: #1d1e20;
+    width: 718px;
+    height: 676px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    display: none;
+    box-shadow: 12px 6px 18px #000;
+}
+
+#email .email-section {
+    width: 718px;
+    height: auto;
+}
+
+#email .email-section .email-title {
+    margin: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font: 700 40px "Inter", sans-serif;
+    color: #ffffff;
+}
+
+#email .email-section .email-topics {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#email .email-section .email-topics .topic {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font: 600 20px "Inter", sans-serif;
+    color: #1a6eba;
+}
+
+
+#email #register-container {
+    width: 718px;
+    height: auto;
+}
+
+#email #register-container form {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+}
+
+#email #register-container form .register-info {
+    margin: 15px 0px;
+    padding: 8px;
+    width: 95%;
+    height: auto;
+    background: #252525;
+    flex-direction: column;
+    border-radius: 7px;
+    transition: box-shadow 0.3s ease;
+}
+
+#email #register-container form .register-info .shadow {
+    box-shadow: 2px 2px 10px 0px #1a6eba;
+}
+
+#email #register-container form .register-info label {
+    margin: 8px 0px;
+    flex-shrink: 0;
+    text-align: left;
+    font: 400 16px "Inter", sans-serif;
+    color: #C7C7C7;
+}
+
+#email #register-container form .register-info .email-info,
+#email #register-container form .register-info .subject-info,
+#email #register-container form .register-info .body-info {
+    margin: 0px;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+}
+
+#email #register-container form .register-info .email-info input,
+#email #register-container form .register-info .subject-info input,
+#email #register-container form .register-info .body-info textarea {
+    margin: auto 0px;
+    margin-bottom: 12px;
+    padding-top: 10px;
+    width: 90%;
+    height: auto;
+    flex-shrink: 0;
+    background: transparent;
+    border: none;
+    outline: 0;
+    text-align: left;
+    font: 400 14px "Inter", sans-serif;
+    color: #C7C7C7;
+}
+
+#email #register-container form .register-info .email-info input:focus {
+    background: transparent;
+    /* Define o fundo como transparente */
+}
+
+#email #register-container form .register-info .body-info textarea {
+    width: 99%;
+    resize: none;
+}
+
+#email #register-container form .name-info .register-info .name-info input:focus,
+#email #register-container form .register-info .email-info input:focus,
+#email #register-container form .register-info .subject-info input:focus,
+#email #register-container form .register-info .body-info textarea:focus {
+    color: #1a6eba;
+}
+
+#email #register-container form .register-info .email-info img,
+#email #register-container form .register-info .subject-info img {
+    margin: 0px 10px;
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+}
+
+#email #register-container form .register-info div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#email #register-container form .register-info div img {
+    margin: auto 10px;
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+}
+
+#email #register-container form button {
+    width: 100%;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #1a6eba;
+    border: none;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font: 400 18px "Inter", sans-serif;
+    color: #FFF;
+}
+
+#email #register-container form .buttons {
+    margin: 15px 0px;
+    width: 718px;
+
+}
+
+#email #register-container form .buttons button {
+    width: 90%;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #1a6eba;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#email #register-container form .buttons button a {
+    text-decoration: none;
+}
+
+#email #register-container form .buttons button:nth-child(0) {
+    background: #2D2D2D;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/*  ========== END Email ========== */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #444;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #1a6eba;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: transparent;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+@keyframes enterTransition {
+    0% {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
