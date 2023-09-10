@@ -151,17 +151,17 @@ const data = {
                 proficiencyDeveloperSkill: 90,
             },
             {
-                logoDeveloperSkill: "../resourcers/skills/vue-icon.png",
+                logoDeveloperSkill: "../resourcers/skills/Vue-icon.png",
                 nameDeveloperSkill: "Vue",
                 proficiencyDeveloperSkill: 80,
             },
             {
-                logoDeveloperSkill: "../resourcers/skills/django-icon.png",
+                logoDeveloperSkill: "../resourcers/skills/Django-icon.png",
                 nameDeveloperSkill: "Django",
                 proficiencyDeveloperSkill: 95,
             },
             {
-                logoDeveloperSkill: "../resourcers/skills/tailwind-icon.png",
+                logoDeveloperSkill: "../resourcers/skills/Tailwind-icon.png",
                 nameDeveloperSkill: "Tailwind",
                 proficiencyDeveloperSkill: 85,
             },
@@ -171,12 +171,12 @@ const data = {
                 proficiencyDeveloperSkill: 98,
             },
             {
-                logoDeveloperSkill: "../resourcers/skills/bootstrap-icon.png",
+                logoDeveloperSkill: "../resourcers/skills/Bootstrap-icon.png",
                 nameDeveloperSkill: "Bootstrap",
                 proficiencyDeveloperSkill: 85,
             },
             {
-                logoDeveloperSkill: "../resourcers/skills/jquery-icon.png",
+                logoDeveloperSkill: "../resourcers/skills/Jquery-icon.png",
                 nameDeveloperSkill: "JQuery",
                 proficiencyDeveloperSkill: 98,
             },
