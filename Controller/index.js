@@ -500,19 +500,4 @@ function initEmail() {
 }
 
 /* ========== END Interacts ========== */
-
-const myEmail = document.getElementById("register-input-email");
-const mySubject = document.getElementById("register-input-subject");
-const myBody = document.getElementById("register-input-body");
-
-function sendMail() {
-    var link = "mailto:ryuuzaki.mendes@gmail.com"
-        + "?cc=" + ""
-        + "&subject=" + escape(mySubject.value)
-        + "&body=" + escape(myBody.value)
-        ;
-
-    window.location.href = link;
-}
-
 initAbout();
