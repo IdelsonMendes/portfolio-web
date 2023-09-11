@@ -153,7 +153,7 @@ const createFormation = () => {
             newInstitute.appendChild(newInstituteFormationInfo);
 
             const newSkillBar = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-            newSkillBar.setAttribute("width", "40");
+            newSkillBar.setAttribute("width", "20");
             newSkillBar.setAttribute("height", "110");
             newSkillBar.setAttribute("viewBox", "0 0 22 104");
             newSkillBar.setAttribute("fill", "none");
