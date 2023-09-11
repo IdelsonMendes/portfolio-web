@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 html,
@@ -14,7 +15,6 @@ body {
     background-repeat: no-repeat;
 }
 
-
 video {
     top: 0;
     left: 0;
@@ -25,7 +25,6 @@ video {
     position: absolute;
     filter: grayscale(1);
     transition: filter 3s;
-
 }
 
 video:hover {
@@ -35,8 +34,8 @@ video:hover {
 
 .curriculo {
     margin: auto;
-    width: 1440px;
-    height: 887px;
+    width: 90em;
+    height: 55em;
     /*position: relative;*/
     overflow: hidden;
     background: transparent;
@@ -65,16 +64,16 @@ video:hover {
 
 .nav {
     background: #1d1e20;
-    width: 62px;
-    height: 676px;
+    width: 4em;
+    height: 42em;
     overflow: hidden;
     position: relative;
-    box-shadow: -6px 6px 18px #000;
+    box-shadow: -0.3em 0.3em 1em #000;
 }
 
 .nav .nav-bar {
-    width: 62px;
-    height: 45px;
+    width: 4em;
+    height: 3em;
     background: #1a6eba;
     display: flex;
     justify-content: center;
@@ -83,15 +82,15 @@ video:hover {
 
 .nav .nav-bar .bar {
     margin: auto;
-    width: 15px;
-    height: 15px;
+    width: 1em;
+    height: 1em;
     overflow: visible;
 }
 
 .nav .icons {
     margin: auto;
-    margin-top: 100px;
-    width: 62px;
+    margin-top: 6em;
+    width: 4em;
     display: grid;
     grid-template-columns: 1fr;
 
@@ -103,8 +102,8 @@ video:hover {
 .nav .icons .skill-icon,
 .nav .icons .project-icon,
 .nav .icons .email-icon {
-    margin: 30px auto;
-    height: 20px;
+    margin: 2em auto;
+    height: 1.5em;
     cursor: pointer;
 
 }
@@ -115,8 +114,8 @@ video:hover {
 .nav .icons .skill-icon .icon,
 .nav .icons .project-icon .icon,
 .nav .icons .email-icon .icon {
-    width: 20px;
-    height: 20px;
+    width: 1.5em;
+    height: 1.5em;
 }
 
 
@@ -135,9 +134,9 @@ video:hover {
 
 .profile {
     background: #1c1c1c;
-    width: 440px;
-    height: 802px;
-    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.5);
+    width: 28em;
+    height: 50em;
+    box-shadow: 0em 0.2em 1em 0em rgba(0, 0, 0, 0.5);
     overflow: hidden;
     position: relative;
 }
@@ -148,7 +147,7 @@ video:hover {
             rgba(28, 28, 28, 0.5),
             rgba(28, 28, 28, 0.5));
     width: 100%;
-    height: 755px;
+    height: 47em;
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
     transition: filter 1s;
@@ -160,9 +159,9 @@ video:hover {
 
 .profile .profile-name {
     margin: auto;
-    top: 690px;
-    width: 440px;
-    height: 40px;
+    top: 20em;
+    width: 100%;
+    height: 2.5em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -170,26 +169,26 @@ video:hover {
 
     color: #ffffff;
     text-align: center;
-    font: 700 30px "Inter", sans-serif;
+    font: 700 2em "Inter", sans-serif;
 }
 
 .profile .profile-function {
-    margin: 15px auto;
+    margin: 1em auto;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    font: 700 20px "Inter", sans-serif;
+    font: 700 1.2em "Inter", sans-serif;
     text-align: center;
     color: #1a6eba;
 }
 
 .profile .profile-icons {
     margin: auto;
-    top: 750px;
-    width: 440px;
-    height: 40px;
+    top: 45em;
+    width: 100%;
+    height: 2.5em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -197,15 +196,15 @@ video:hover {
 }
 
 .profile .media-icon {
-    margin: auto 20px;
-    width: 25px;
-    height: 25px;
+    margin: auto 1em;
+    width: 1.5em;
+    height: 1.5em;
     cursor: pointer;
 }
 
 .profile .media-icon .icon {
-    width: 25px;
-    height: 25px;
+    width: 1.5em;
+    height: 1.5em;
     position: absolute;
     cursor: pointer;
 }
@@ -217,41 +216,41 @@ video:hover {
 
 .curriculo-background {
     background: transparent;
-    width: 1440px;
-    height: 887px;
+    width: 90em;
+    height: 55em;
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0em;
+    top: 0em;
 }
 
 #about {
     background: #1d1e20;
-    width: 718px;
-    height: 676px;
+    width: 45em;
+    height: 42em;
     overflow-y: scroll;
     overflow-x: hidden;
     position: relative;
-    box-shadow: 12px 6px 18px #000;
+    box-shadow: 0.7em 0.3em 1em #000;
 }
 
 #about .about-section {
-    width: 718px;
-    height: 160px;
+    width: 45em;
+    height: auto;
 }
 
 #about .about-section .about-title {
-    margin: 30px;
-    margin-bottom: 15px;
+    margin: 0.8em;
+    margin-bottom: 0.5em;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     text-align: left;
-    font: 700 40px "Inter", sans-serif;
+    font: 700 2.5em "Inter", sans-serif;
     color: #ffffff;
 }
 
 #about .about-section .about-topics {
-    margin-left: 30px;
+    margin-left: 2em;
     display: flex;
     align-items: start;
     justify-content: start;
@@ -265,69 +264,68 @@ video:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font: 600 20px "Inter", sans-serif;
+    font: 600 1.2em "Inter", sans-serif;
     color: #1a6eba;
 }
 
 .about-arrow {
-    margin: auto 5px;
-    width: 10px;
+    margin: auto 0.3em;
+    width: 0.6em;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font: 600 20px "Inter", sans-serif;
+    font: 600 1.2em "Inter", sans-serif;
     color: #6b6b6b;
 }
 
 #about .about-section .about-description {
-    margin: 15px 30px;
-    width: 655px;
+    margin: 1em 2em;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     text-align: left;
-    font: 400 18px "Inter", sans-serif;
+    font: 400 1em "Inter", sans-serif;
     color: #6b6b6b;
 }
 
 #about .services-title {
-    margin: 30px;
-    margin-bottom: 15px;
+    margin: 1em;
+    margin-bottom: 0.5em;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     text-align: left;
-    font: 700 30px "Inter", sans-serif;
+    font: 700 2em "Inter", sans-serif;
     color: #ffffff;
 }
 
 .service-title {
-    margin: 30px;
-    margin-bottom: 15px;
+    margin: 0.5em 1em;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     text-align: left;
-    font: 700 30px "Inter", sans-serif;
+    font: 700 2em "Inter", sans-serif;
     color: #ffffff;
 }
 
 #about .services-section {
-    width: 718px;
+    width: 45em;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 #about .services-section .service-development {
-    margin: 15px 30px;
-    width: 211px;
+    margin: 1em 2em;
+    width: 13em;
     height: auto;
 }
 
 #about .services-section .service-development .service-icon {
-    margin: 15px auto;
+    margin: 1em auto;
     width: 100%;
     display: flex;
     justify-content: start;
@@ -336,9 +334,9 @@ video:hover {
 }
 
 #about .services-section .service-development .service-icon .icon {
-    margin-right: 15px;
-    width: 30px;
-    height: 30px;
+    margin-right: 1em;
+    width: 2em;
+    height: 2em;
 }
 
 #about .services-section .service-development .service-title {
@@ -348,7 +346,7 @@ video:hover {
     justify-content: flex-start;
 
     text-align: left;
-    font: 700 20px "Inter", sans-serif;
+    font: 700 1.2em "Inter", sans-serif;
     color: #ffffff;
 }
 
@@ -358,7 +356,7 @@ video:hover {
     justify-content: flex-start;
 
     text-align: left;
-    font: 400 18px "Inter", sans-serif;
+    font: 400 1.2em "Inter", sans-serif;
     color: #6b6b6b;
 }
 
@@ -368,34 +366,33 @@ video:hover {
 
 #formations {
     background: #1d1e20;
-    width: 718px;
-    height: 676px;
+    width: 45em;
+    height: 42em;
     overflow-y: scroll;
     overflow-x: hidden;
     display: none;
     position: relative;
-    box-shadow: 12px 6px 18px #000;
+    box-shadow: 0.7em 0.3em 1em #000;
 }
 
 #formations .formation-section {
-    width: 718px;
+    width: 45em;
     height: auto;
 }
 
 .formation-section .formation-title {
-    margin: 30px;
-    margin-bottom: 15px;
+    margin: 0.8em;
+    margin-bottom: 0.5em;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-
     text-align: left;
-    font: 700 40px "Inter", sans-serif;
+    font: 700 2.5em "Inter", sans-serif;
     color: #ffffff;
 }
 
 .formation-section .formation-topics {
-    margin-left: 30px;
+    margin-left: 2em;
     display: flex;
     align-items: start;
     justify-content: start;
@@ -410,12 +407,12 @@ video:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font: 600 20px "Inter", sans-serif;
+    font: 600 1.2em "Inter", sans-serif;
     color: #1a6eba;
 }
 
 #formations .institute-section {
-    margin: 30px;
+    margin: 2em 1em;
     width: auto;
     height: auto;
     /*
@@ -425,13 +422,12 @@ video:hover {
 }
 
 #formations .institute-section .institute-formation {
-    margin: 15px;
-    width: 342px;
-    height: 160px;
+    margin: 1em;
+    height: auto;
 }
 
 #formations .institute-section .institute-formation .institute {
-    width: 293px;
+    /* width: 18em;*/
     height: auto;
 }
 
@@ -447,73 +443,71 @@ video:hover {
 }
 
 #formations .institute-section .institute-formation .institute .formation-info div .title {
-    margin: 15px;
-    width: auto;
+    margin: 1em;
+    width: 15em;
     text-align: left;
-    font: 700 15px "Inter", sans-serif;
+    font: 700 1em "Inter", sans-serif;
     color: #6b6b6b;
 }
 
 #formations .institute-section .institute-formation .institute .formation-info div .description {
-    margin: 5px 15px;
-    width: 245px;
+    margin: 0.3em 1em;
+    width: 20em;
     height: auto;
     text-align: left;
-    font: 700 15px "Inter", sans-serif;
+    font: 700 1em "Inter", sans-serif;
     color: #ffffff;
 }
 
 #formations .institute-section .institute-formation .institute .formation-icon .icon {
-    width: 20px;
-    height: 20px;
+    width: 1.2em;
+    height: 1.2em;
 }
 
 #formations .institute-section .institute-formation .institute .formation-icon .year {
-    margin-left: 15px;
+    margin-left: 1em;
     text-align: left;
-    font: 700 15px "Inter", sans-serif;
+    font: 700 1em "Inter", sans-serif;
     color: #ffffff;
 }
 
 
 #formations .institute-section .institute-formation .institute .formation-icon .year:nth-last-child(2) {
     text-align: center;
-    font: 700 20px "Inter", sans-serif;
+    font: 700 1.2em "Inter", sans-serif;
     color: #6b6b6b;
 }
 
-
 .certification-title {
-    margin: 30px;
-    margin-bottom: 15px;
+    margin: 1.5em 1em;
     text-align: left;
-    font: 700 30px "Inter", sans-serif;
+    font: 700 2em "Inter", sans-serif;
     color: #ffffff;
 }
 
 /* Progress Bar */
 
 .progress-bar {
-    width: 104px;
-    height: 22px;
+    width: 6.5em;
+    height: 1.2em;
 }
 
 .line-skill {
     border-style: solid;
     border-color: #ffffff;
-    border-width: 1px 0 0 0;
-    width: 104px;
-    height: 0px;
+    border-width: 0.1em 0 0 0;
+    width: 6.5em;
+    height: 0em;
     position: absolute;
-    left: 40px;
-    top: 230px;
+    left: 2.5em;
+    top: 14em;
     transform-origin: 0 0;
     transform: rotate(90deg) scale(1, 1);
 }
 
 .point-skill {
-    width: 22px;
-    height: 22px;
+    width: 1.2em;
+    height: 1.2em;
 }
 
 .ellipse-1 {
@@ -521,12 +515,12 @@ video:hover {
     border-radius: 50%;
     border-style: solid;
     border-color: #ffffff;
-    border-width: 1px;
-    width: 22px;
-    height: 22px;
+    border-width: 0.1em;
+    width: 1.3em;
+    height: 1.3em;
     position: absolute;
-    left: 50px;
-    top: 270px;
+    left: 3em;
+    top: 17em;
     transform-origin: 0 0;
     transform: rotate(90deg) scale(1, 1);
 }
@@ -534,11 +528,11 @@ video:hover {
 .ellipse-2 {
     background: #ffffff;
     border-radius: 50%;
-    width: 10px;
-    height: 10px;
+    width: 0.6em;
+    height: 0.6em;
     position: absolute;
-    left: 45px;
-    top: 275px;
+    left: 3em;
+    top: 17em;
     transform-origin: 0 0;
     transform: rotate(90deg) scale(1, 1);
 }
@@ -549,34 +543,34 @@ video:hover {
 
 #skills {
     background: #1d1e20;
-    width: 718px;
-    height: 676px;
+    width: 45em;
+    height: 42em;
     overflow: hidden;
     overflow-y: scroll;
     display: none;
     position: relative;
-    box-shadow: 12px 6px 18px #000;
+    box-shadow: 0.7em 0.3em 1em #000;
 }
 
 .skills-section {
-    width: 718px;
+    width: 45em;
     height: auto;
 }
 
 .skills-title {
-    margin: 30px;
-    margin-bottom: 15px;
+    margin: 0.8em;
+    margin-bottom: 0.5em;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 
     text-align: left;
-    font: 700 40px "Inter", sans-serif;
+    font: 700 2.5em "Inter", sans-serif;
     color: #ffffff;
 }
 
 .skills-section .skills-topics {
-    margin-left: 30px;
+    margin-left: 2em;
     display: flex;
     align-items: start;
     justify-content: start;
@@ -590,22 +584,22 @@ video:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font: 600 20px "Inter", sans-serif;
+    font: 600 1.2em "Inter", sans-serif;
     color: #1a6eba;
 }
 
 .skills-developer {
     margin: auto;
-    padding: 30px;
+    padding: 1em;
     text-align: left;
-    font: 700 40px "Inter", sans-serif;
+    font: 700 2.5em "Inter", sans-serif;
     color: #ffffff;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .skills-developer .skill {
-    margin: 10px 0px;
+    margin: 0.6em 0em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -613,23 +607,22 @@ video:hover {
 }
 
 .skills-developer .icon {
-    width: 30px;
-    height: 30px;
+    width: 2em;
+    height: 2em;
 }
 
 .skills-developer .title {
-    margin-left: 10px;
-    width: 100px;
+    margin-left: 0.6em;
     color: #FFF;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 1.2em;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
 .skills-developer svg {
-    margin: auto 25px;
+    margin: auto 1.5em;
 }
 
 /*  ========== END Skills ========== */
@@ -638,33 +631,33 @@ video:hover {
 
 #projects {
     background: #1d1e20;
-    width: 718px;
-    height: 676px;
+    width: 45em;
+    height: 42em;
     overflow: hidden;
     overflow-y: scroll;
     display: none;
     position: relative;
-    box-shadow: 12px 6px 18px #000;
+    box-shadow: 0.7em 0.3em 1em #000;
 }
 
 #projects .projects-section {
-    width: 718px;
+    width: 45em;
     height: auto;
 }
 
 #projects .projects-section .projects-title {
-    margin: 30px;
-    margin-bottom: 15px;
+    margin: 0.8em;
+    margin-bottom: 0.5em;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     text-align: left;
-    font: 700 40px "Inter", sans-serif;
+    font: 700 2.5em "Inter", sans-serif;
     color: #ffffff;
 }
 
 #projects .projects-section .projects-topics {
-    margin-left: 30px;
+    margin-left: 2em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -676,28 +669,27 @@ video:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font: 600 20px "Inter", sans-serif;
+    font: 600 1.2em "Inter", sans-serif;
     color: #1a6eba;
 }
 
 #projects .projects-developer {
-    width: 718px;
+    width: 45em;
     height: auto;
 }
 
 #projects .projects-developer .project {
-    margin: 30px;
-    width: 528px;
-    height: 150px;
+    margin: 2em;
+    height: 9em;
     display: flex;
     flex-direction: row;
     align-items: start;
 }
 
 #projects .projects-developer .project a .image {
-    width: 162px;
-    height: 150px;
-    border-radius: 10px;
+    width: 10em;
+    height: 9em;
+    border-radius: 0.6em;
     object-fit: cover;
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
@@ -709,42 +701,42 @@ video:hover {
 }
 
 #projects .projects-developer .project .project-info {
-    margin-left: 20px;
-    width: 342px;
-    height: 119px;
+    margin-left: 1.2em;
+    width: 21em;
+    height: 7.5em;
 
 }
 
 #projects .projects-developer .project .project-info .project-header {
     display: flex;
-    width: 150px;
+    width: 9em;
     flex-direction: row;
     justify-content: start;
     align-items: start;
 }
 
 #projects .projects-developer .project .project-info .project-header .icon {
-    width: 30px;
-    height: 30px;
+    width: 2em;
+    height: 2em;
 }
 
 #projects .projects-developer .project .project-info .project-header .title {
     margin: auto;
-    margin-left: 10px;
+    margin-left: 0.6em;
 
     color: #FFF;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 1.2em;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
 #projects .projects-developer .project .project-info .description {
-    margin-top: 20px;
+    margin-top: 1.2em;
     color: #6B6B6B;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 1.2em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -756,33 +748,33 @@ video:hover {
 
 #email {
     background: #1d1e20;
-    width: 718px;
-    height: 676px;
+    width: 45em;
+    height: 42em;
     overflow-y: scroll;
     overflow-x: hidden;
     position: relative;
     display: none;
-    box-shadow: 12px 6px 18px #000;
+    box-shadow: 0.7em 0.3em 1em #000;
 }
 
 #email .email-section {
-    width: 718px;
+    width: 45em;
     height: auto;
 }
 
 #email .email-section .email-title {
-    margin: 30px;
-    margin-bottom: 15px;
+    margin: 0.8em;
+    margin-bottom: 0.5em;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     text-align: left;
-    font: 700 40px "Inter", sans-serif;
+    font: 700 2.5em "Inter", sans-serif;
     color: #ffffff;
 }
 
 #email .email-section .email-topics {
-    margin-left: 30px;
+    margin-left: 2em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -794,51 +786,51 @@ video:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font: 600 20px "Inter", sans-serif;
+    font: 600 1.2em "Inter", sans-serif;
     color: #1a6eba;
 }
 
 
 #email #register-container {
-    width: 718px;
+    width: 45em;
     height: auto;
 }
 
 #email #register-container form {
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 2em;
+    margin-left: 2em;
     width: 95%;
     height: auto;
     flex-direction: column;
 }
 
 #email #register-container form .register-info {
-    margin: 15px 0px;
-    padding: 8px;
+    margin: 1em 0em;
+    padding: 0.5em;
     width: 95%;
     height: auto;
     background: #252525;
     flex-direction: column;
-    border-radius: 7px;
+    border-radius: 0.3em;
     transition: box-shadow 0.3s ease;
 }
 
 #email #register-container form .register-info .shadow {
-    box-shadow: 2px 2px 10px 0px #1a6eba;
+    box-shadow: 0.2em 0.2em 0.6em 0em #1a6eba;
 }
 
 #email #register-container form .register-info label {
-    margin: 8px 0px;
+    margin: 0.5em 0em;
     flex-shrink: 0;
     text-align: left;
-    font: 400 16px "Inter", sans-serif;
+    font: 400 1em "Inter", sans-serif;
     color: #C7C7C7;
 }
 
 #email #register-container form .register-info .email-info,
 #email #register-container form .register-info .subject-info,
 #email #register-container form .register-info .body-info {
-    margin: 0px;
+    margin: 0em;
     width: auto;
     height: auto;
     flex-direction: row;
@@ -847,9 +839,9 @@ video:hover {
 #email #register-container form .register-info .email-info input,
 #email #register-container form .register-info .subject-info input,
 #email #register-container form .register-info .body-info textarea {
-    margin: auto 0px;
-    margin-bottom: 12px;
-    padding-top: 10px;
+    margin: auto 0em;
+    margin-bottom: 0.7em;
+    padding-top: 0.6em;
     width: 90%;
     height: auto;
     flex-shrink: 0;
@@ -857,7 +849,7 @@ video:hover {
     border: none;
     outline: 0;
     text-align: left;
-    font: 400 14px "Inter", sans-serif;
+    font: 400 0.8em "Inter", sans-serif;
     color: #C7C7C7;
 }
 
@@ -880,9 +872,9 @@ video:hover {
 
 #email #register-container form .register-info .email-info img,
 #email #register-container form .register-info .subject-info img {
-    margin: 0px 10px;
-    width: 15px;
-    height: 15px;
+    margin: 0em 0.7em;
+    width: 1em;
+    height: 1em;
     flex-shrink: 0;
 }
 
@@ -892,47 +884,44 @@ video:hover {
 }
 
 #email #register-container form .register-info div img {
-    margin: auto 10px;
-    width: 15px;
-    height: 15px;
+    margin: auto 0.6em;
+    width: 1em;
+    height: 1em;
     flex-shrink: 0;
 }
 
 #email #register-container form button {
     width: 100%;
-    height: 25px;
+    height: 1.5em;
     flex-shrink: 0;
-    border-radius: 7px;
+    border-radius: 0.5em;
     background: #1a6eba;
     border: none;
     justify-content: center;
     align-items: center;
 
     text-align: center;
-    font: 400 18px "Inter", sans-serif;
+    font: 400 1em "Inter", sans-serif;
     color: #FFF;
 }
 
 #email #register-container form .buttons {
-    margin: 15px 0px;
-    width: 718px;
-
+    margin: 1em 0em;
 }
 
 #email #register-container form .buttons button {
-    width: 90%;
-    height: 30px;
+    width: 95%;
+    height: 2.5em;
     flex-shrink: 0;
-    border-radius: 7px;
+    border-radius: 0.5em;
     background: #1a6eba;
     border: none;
-    justify-content: center;
-    align-items: center;
     color: #FFF;
-    font-size: 11px;
+    font-size: 0.8em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
 }
 
 #email #register-container form .buttons button a {
@@ -950,8 +939,8 @@ button:hover {
 /*  ========== END Email ========== */
 
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+    width: 0.6em;
+    height: 0.6em;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -988,4 +977,45 @@ button:hover {
         transform: translateY(0);
         opacity: 1;
     }
+}
+
+/* Responsividade */
+
+
+@media screen and (max-width:600px) {
+
+    #about,
+    #formations,
+    #skills,
+    #projects,
+    #email {
+        width: 32em;
+    }
+
+    #about .about-section {
+        width: 25em;
+    }
+
+    #about .services-section {
+        grid-template-columns: 1fr;
+    }
+
+    #about .services-section .service-development {
+        width: 20em;
+    }
+
+    .skills-developer {
+        padding: 0.5em 1em;
+        grid-template-columns: 1fr;
+    }
+
+    #projects .projects-developer .project {
+        margin: 3em 2em;
+        width: 25em;
+    }
+
+    #email #register-container {
+        width: 32em;
+    }
+
 }
