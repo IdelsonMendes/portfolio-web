@@ -33,10 +33,13 @@ video:hover {
     transition: filter 3s;
 }
 
+
 #background-wallpaper {
     position: absolute;
     z-index: 0;
-    width: 100vw;
+    width: auto;
+    height: auto;
+    min-width: 100vw;
     min-height: 100vh;
 }
 
