@@ -13,6 +13,7 @@ body {
     min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 video {
@@ -30,6 +31,13 @@ video {
 video:hover {
     filter: grayscale(0);
     transition: filter 3s;
+}
+
+#background-wallpaper {
+    position: absolute;
+    z-index: 0;
+    width: 100vw;
+    min-height: 100vh;
 }
 
 .curriculo {
@@ -1018,8 +1026,4 @@ button:hover {
         width: 32em;
     }
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 4eed51c7fa36add744292d5776f693496bd366c7
