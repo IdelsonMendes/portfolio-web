@@ -1,3 +1,10 @@
+/* ========== Background Wallpaper ========== */
+const curriculo = document.getElementById('curriculo')
+
+const backgroundWallpaper = document.getElementById('background-wallpaper')
+// backgroundWallpaper.style.width = `${curriculo.offsetWidth}px`
+
+
 /* ========== About ========== */
 const removeAbout = () => {
     const servicesAll = document.querySelectorAll("#about .services-section .service-development");

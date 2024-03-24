@@ -2,18 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 html,
 body {
     margin: auto;
     background: transparent;
-    min-width: 100vw;
-    min-height: 100vh;
+    /* min-width: 100vw;
+    min-height: 100vh; */
+    width: 100%;
+    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+body {
+    overflow-x: scroll;
 }
 
 video {
@@ -35,20 +45,32 @@ video:hover {
 
 
 #background-wallpaper {
-    position: absolute;
+    /* position: absolute;
     z-index: 0;
     width: auto;
     height: auto;
     min-width: 100vw;
-    min-height: 100vh;
+    min-height: 100vh; */
+
+    position: absolute;
+    /* min-width: 100vw; */
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1);
 }
+
+#background-wallpaper:hover {
+    filter: grayscale(0);
+    transition: filter 3s;
+}
+
 
 .curriculo {
     margin: auto;
+    padding: 0em 5em;
     width: 90em;
-    height: 55em;
-    /*position: relative;*/
-    overflow: hidden;
+    /* height: 55em; */
+    /* position: relative; */
     background: transparent;
     display: flex;
     justify-content: center;
